@@ -9,7 +9,7 @@ h1{
     font-size: 40px;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -46,34 +46,30 @@ section{
     background-position: right;
 }
 
-
-.practise{
-    display: flex;
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+ 
 }
-
-.pra{
-    width: 50%;
-    padding: 5%;
-}
-
-.photo img{
-    width: 60%;
-    margin-top: 15px;
-}
-
-.practise{
+.experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-    margin-right: -15px;
-    
+    background-position: left;
 }
 
-.btn{
-    text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    padding: 10px 40px;
-    color:white;
-    font-weight: 700;
-    border-radius: 5%;
+
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+
+footer p{
+ text-align: center;
 }
