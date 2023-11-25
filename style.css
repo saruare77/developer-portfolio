@@ -45,3 +45,35 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+
+.practise{
+    display: flex;
+}
+
+.pra{
+    width: 50%;
+    padding: 5%;
+}
+
+.photo img{
+    width: 60%;
+    margin-top: 15px;
+}
+
+.practise{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: -15px;
+    
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color:white;
+    font-weight: 700;
+    border-radius: 5%;
+}
